@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: go-web-app
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: go-web-app
   ports:
